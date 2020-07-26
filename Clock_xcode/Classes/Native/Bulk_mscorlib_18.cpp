@@ -1642,8 +1642,6 @@ public:
 	KeyCollection_t2F25BAF319A40DA5241F076B74BB90B72F16822F * ___keys_7;
 	// System.Collections.Generic.Dictionary`2_ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::values
 	ValueCollection_tEDEE983AB5C1AD1832785DBAED94462C85312A6F * ___values_8;
-	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
-	RuntimeObject * ____syncRoot_9;
 
 public:
 	inline static int32_t get_offset_of_buckets_0() { return static_cast<int32_t>(offsetof(Dictionary_2_t4EFE6A1D6502662B911688316C6920444A18CF0C, ___buckets_0)); }
@@ -1722,15 +1720,6 @@ public:
 		___values_8 = value;
 		Il2CppCodeGenWriteBarrier((&___values_8), value);
 	}
-
-	inline static int32_t get_offset_of__syncRoot_9() { return static_cast<int32_t>(offsetof(Dictionary_2_t4EFE6A1D6502662B911688316C6920444A18CF0C, ____syncRoot_9)); }
-	inline RuntimeObject * get__syncRoot_9() const { return ____syncRoot_9; }
-	inline RuntimeObject ** get_address_of__syncRoot_9() { return &____syncRoot_9; }
-	inline void set__syncRoot_9(RuntimeObject * value)
-	{
-		____syncRoot_9 = value;
-		Il2CppCodeGenWriteBarrier((&____syncRoot_9), value);
-	}
 };
 
 #ifdef __clang__
@@ -1767,8 +1756,6 @@ public:
 	KeyCollection_tB25B793043188B05B5EDA66FE436CA860742E601 * ___keys_7;
 	// System.Collections.Generic.Dictionary`2_ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::values
 	ValueCollection_t8FDF62D6CA4259E5733AB7ABFC11F082D955414B * ___values_8;
-	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
-	RuntimeObject * ____syncRoot_9;
 
 public:
 	inline static int32_t get_offset_of_buckets_0() { return static_cast<int32_t>(offsetof(Dictionary_2_tF49FE2F5FE86CCFDD59492E9D46254E0CCB5EEC2, ___buckets_0)); }
@@ -1846,15 +1833,6 @@ public:
 	{
 		___values_8 = value;
 		Il2CppCodeGenWriteBarrier((&___values_8), value);
-	}
-
-	inline static int32_t get_offset_of__syncRoot_9() { return static_cast<int32_t>(offsetof(Dictionary_2_tF49FE2F5FE86CCFDD59492E9D46254E0CCB5EEC2, ____syncRoot_9)); }
-	inline RuntimeObject * get__syncRoot_9() const { return ____syncRoot_9; }
-	inline RuntimeObject ** get_address_of__syncRoot_9() { return &____syncRoot_9; }
-	inline void set__syncRoot_9(RuntimeObject * value)
-	{
-		____syncRoot_9 = value;
-		Il2CppCodeGenWriteBarrier((&____syncRoot_9), value);
 	}
 };
 
@@ -14431,8 +14409,6 @@ extern "C" IL2CPP_METHOD_ATTR String_t* Number_FormatUInt64_m04004F09D1913C13C59
 extern "C" IL2CPP_METHOD_ATTR String_t* UInt64_ToString_mF0E40B7459C207B89A1C8C04CE7F183AC0E6D672 (uint64_t* __this, const RuntimeMethod* method);
 // System.String System.UInt64::ToString(System.IFormatProvider)
 extern "C" IL2CPP_METHOD_ATTR String_t* UInt64_ToString_m6CBBC10ABBA0EE36F5E72F926A38F6CD7F497A55 (uint64_t* __this, RuntimeObject* ___provider0, const RuntimeMethod* method);
-// System.String System.UInt64::ToString(System.String)
-extern "C" IL2CPP_METHOD_ATTR String_t* UInt64_ToString_m46B46DBB5F74DCDC6082A8AC8C695E2295925E71 (uint64_t* __this, String_t* ___format0, const RuntimeMethod* method);
 // System.String System.UInt64::ToString(System.String,System.IFormatProvider)
 extern "C" IL2CPP_METHOD_ATTR String_t* UInt64_ToString_mF6F94603E535C161BBD87AC747A1F403C274E8CD (uint64_t* __this, String_t* ___format0, RuntimeObject* ___provider1, const RuntimeMethod* method);
 // System.UInt64 System.Number::ParseUInt64(System.String,System.Globalization.NumberStyles,System.Globalization.NumberFormatInfo)
@@ -32158,23 +32134,6 @@ extern "C"  String_t* UInt64_ToString_m6CBBC10ABBA0EE36F5E72F926A38F6CD7F497A55_
 {
 	uint64_t* _thisAdjusted = reinterpret_cast<uint64_t*>(__this + 1);
 	return UInt64_ToString_m6CBBC10ABBA0EE36F5E72F926A38F6CD7F497A55(_thisAdjusted, ___provider0, method);
-}
-// System.String System.UInt64::ToString(System.String)
-extern "C" IL2CPP_METHOD_ATTR String_t* UInt64_ToString_m46B46DBB5F74DCDC6082A8AC8C695E2295925E71 (uint64_t* __this, String_t* ___format0, const RuntimeMethod* method)
-{
-	CHECK_PAUSE_POINT;
-	{
-		int64_t L_0 = *((int64_t*)__this);
-		String_t* L_1 = ___format0;
-		NumberFormatInfo_tFDF57037EBC5BC833D0A53EF0327B805994860A8 * L_2 = NumberFormatInfo_get_CurrentInfo_m595DF03E32E0C5B01F1EC45F7264B2BD09BA61C9(/*hidden argument*/NULL);
-		String_t* L_3 = Number_FormatUInt64_m04004F09D1913C13C59635153D0F45AF37F8248A(L_0, L_1, L_2, /*hidden argument*/NULL);
-		return L_3;
-	}
-}
-extern "C"  String_t* UInt64_ToString_m46B46DBB5F74DCDC6082A8AC8C695E2295925E71_AdjustorThunk (RuntimeObject * __this, String_t* ___format0, const RuntimeMethod* method)
-{
-	uint64_t* _thisAdjusted = reinterpret_cast<uint64_t*>(__this + 1);
-	return UInt64_ToString_m46B46DBB5F74DCDC6082A8AC8C695E2295925E71(_thisAdjusted, ___format0, method);
 }
 // System.String System.UInt64::ToString(System.String,System.IFormatProvider)
 extern "C" IL2CPP_METHOD_ATTR String_t* UInt64_ToString_mF6F94603E535C161BBD87AC747A1F403C274E8CD (uint64_t* __this, String_t* ___format0, RuntimeObject* ___provider1, const RuntimeMethod* method)

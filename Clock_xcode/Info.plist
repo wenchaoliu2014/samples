@@ -54,6 +54,7 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
 	</array>
 	<key>UnityCloudProjectID</key>
 	<string>12b62012-8705-4a23-91b0-aa4865b32749</string>

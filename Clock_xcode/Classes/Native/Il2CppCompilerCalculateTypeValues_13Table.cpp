@@ -2849,13 +2849,8 @@ extern const int32_t g_FieldOffsetTable1360[4] =
 	0,
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1361 = { 0, 0, 0, 0 };
-extern const int32_t g_FieldOffsetTable1361[14] = 
+extern const int32_t g_FieldOffsetTable1361[9] = 
 {
-	0,
-	0,
-	0,
-	0,
-	0,
 	0,
 	0,
 	0,

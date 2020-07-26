@@ -21,7 +21,7 @@
 
 #if IL2CPP_MONO_DEBUGGER
 extern const Il2CppTypeSourceFilePair g_typeSourceFiles[] = {
-{ 5019, 1 },
+{ 4634, 1 },
 };
 #else
 extern const Il2CppTypeSourceFilePair g_typeSourceFiles[1] = { };
