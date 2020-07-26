@@ -11,6 +11,7 @@ public class Clock : MonoBehaviour
     public Transform hoursTransform, minutesTransform, secondsTransform;
 
     public bool continuous;
+    
 
     void Update()
     {
