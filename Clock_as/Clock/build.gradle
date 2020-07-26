@@ -39,7 +39,7 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 26
+        minSdkVersion 16
         targetSdkVersion 28
         applicationId 'com.winco.test'
         ndk {
