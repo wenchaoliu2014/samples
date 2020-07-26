@@ -6,13 +6,13 @@
     density="xxhdpi"
     format="10"
     plugin-version="3.2.1"
-    timestamp="1595744176903"
+    timestamp="1595744502307"
     token="3820997870202669734"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1" />
     <task
         name="instant-run-dex"
         duration="0" />
@@ -24,6 +24,12 @@
         duration="0" />
 
     <artifact
+        location="/Volumes/work/samples/Clock/Clock_as/Clock/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Volumes/work/samples/Clock/Clock_as/Clock/build/intermediates/instant-run-apk/debug/Clock-debug.apk"
+        type="SPLIT_MAIN" />
+    <artifact
         location="/Volumes/work/samples/Clock/Clock_as/Clock/build/intermediates/split-apk/debug/slices/slice_9.apk"
         type="SPLIT" />
     <artifact
@@ -34,9 +40,6 @@
         type="SPLIT" />
     <artifact
         location="/Volumes/work/samples/Clock/Clock_as/Clock/build/intermediates/split-apk/debug/slices/slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Volumes/work/samples/Clock/Clock_as/Clock/build/intermediates/resources/instant-run/debug/resources-debug.apk"
         type="SPLIT" />
     <artifact
         location="/Volumes/work/samples/Clock/Clock_as/Clock/build/intermediates/split-apk/debug/slices/slice_4.apk"
@@ -59,14 +62,17 @@
     <artifact
         location="/Volumes/work/samples/Clock/Clock_as/Clock/build/intermediates/split-apk/debug/dep/dependencies.apk"
         type="SPLIT" />
-    <artifact
-        location="/Volumes/work/samples/Clock/Clock_as/Clock/build/intermediates/instant-run-apk/debug/Clock-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1595744176903"
+        timestamp="1595744502307"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Volumes/work/samples/Clock/Clock_as/Clock/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Volumes/work/samples/Clock/Clock_as/Clock/build/intermediates/instant-run-apk/debug/Clock-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="/Volumes/work/samples/Clock/Clock_as/Clock/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
@@ -78,9 +84,6 @@
             type="SPLIT" />
         <artifact
             location="/Volumes/work/samples/Clock/Clock_as/Clock/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Volumes/work/samples/Clock/Clock_as/Clock/build/intermediates/resources/instant-run/debug/resources-debug.apk"
             type="SPLIT" />
         <artifact
             location="/Volumes/work/samples/Clock/Clock_as/Clock/build/intermediates/split-apk/debug/slices/slice_4.apk"
@@ -103,9 +106,6 @@
         <artifact
             location="/Volumes/work/samples/Clock/Clock_as/Clock/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
-        <artifact
-            location="/Volumes/work/samples/Clock/Clock_as/Clock/build/intermediates/instant-run-apk/debug/Clock-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
