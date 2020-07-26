@@ -62,7 +62,7 @@ ADDED from /Volumes/work/samples/Clock/Clock_as/Clock/src/main/AndroidManifest.x
 	android:configChanges
 		ADDED from /Volumes/work/samples/Clock/Clock_as/Clock/src/main/AndroidManifest.xml:5:124-305
 	android:name
-		ADDED from /Volumes/work/samples/Clock/Clock_as/Clock/src/main/AndroidManifest.xml:5:342-391
+		ADDED from /Volumes/work/samples/Clock/Clock_as/Clock/src/main/AndroidManifest.xml:5:342-376
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
 ADDED from /Volumes/work/samples/Clock/Clock_as/Clock/src/main/AndroidManifest.xml:6:7-10:23
 action#android.intent.action.MAIN
