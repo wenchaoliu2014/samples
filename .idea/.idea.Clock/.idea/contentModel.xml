@@ -9,6 +9,8 @@
         <e p="Clock.cs" t="Include" />
         <e p="ColoredPoint.shader" t="Include" />
         <e p="Graph.cs" t="Include" />
+        <e p="GraphFunction.cs" t="Include" />
+        <e p="GraphFunctionName.cs" t="Include" />
       </e>
       <e p="Clock.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

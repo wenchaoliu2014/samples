@@ -65,6 +65,8 @@
   <ItemGroup>
     <Compile Include="Assets\Clock.cs" />
     <Compile Include="Assets\Graph.cs" />
+    <Compile Include="Assets\GraphFunction.cs" />
+    <Compile Include="Assets\GraphFunctionName.cs" />
     <None Include="Assets\ColoredPoint.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Volumes/work/samples/Clock/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
