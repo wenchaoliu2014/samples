@@ -9,5 +9,10 @@ This will ensure that all your metadata is set in local metadata files, instead 
 At this point, the Library folder becomes unnecessary to keep synced between users.
 Now you can ignore these files in your preferred version control, including the entire Library folder:
 
-Visible Meta Files 没有 Library/metadata
-Hidden Meta Files 有 Library/metadata
+
+一共有4种模式：
+
+Hidden Meta Files：隐藏的Meta文件，即该文件的属性是隐藏的，在系统中如果不查看隐藏文件这些文件是看不到的。如果你不想看到这些Meta Files，你可以设置为该选项。
+Visible Meta Files：可见的Meta文件。
+Perforce：Unity内置的一种版本控制工具。
+PlasticSCM：Unity内置的一种版本控制工具。
