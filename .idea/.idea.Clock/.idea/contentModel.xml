@@ -19,7 +19,10 @@
         </e>
         <e p="Mesh Basics" t="Include">
           <e p="01 Procedural Grid" t="Include">
-            <e p="3" t="Include">
+            <e p="2" t="Include">
+              <e p="Grid.cs" t="Include" />
+            </e>
+            <e p="4" t="Include">
               <e p="Grid.cs" t="Include" />
             </e>
           </e>

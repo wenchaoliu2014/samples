@@ -69,6 +69,7 @@
     <Compile Include="Assets\basic\graph\GraphFunctionName.cs" />
     <Compile Include="Assets\Mesh Basics\01 Procedural Grid\2\Grid.cs" />
     <Compile Include="Assets\Mesh Basics\01 Procedural Grid\3\Grid.cs" />
+    <Compile Include="Assets\Mesh Basics\01 Procedural Grid\4\Grid.cs" />
     <None Include="Assets\basic\graph\ColoredPoint.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Volumes/work/samples/Clock/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
