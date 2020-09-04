@@ -17,6 +17,13 @@
             <e p="GraphFunctionName.cs" t="Include" />
           </e>
         </e>
+        <e p="Mesh Basics" t="Include">
+          <e p="01 Procedural Grid" t="Include">
+            <e p="2" t="Include">
+              <e p="Grid.cs" t="Include" />
+            </e>
+          </e>
+        </e>
       </e>
       <e p="Clock.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
