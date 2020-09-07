@@ -6,6 +6,11 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="BaseRendering" t="Include">
+          <e p="01 Matrices" t="Include">
+            <e p="TransformationGrid.cs" t="Include" />
+          </e>
+        </e>
         <e p="basic" t="Include">
           <e p="Clock" t="Include">
             <e p="Clock.cs" t="Include" />
