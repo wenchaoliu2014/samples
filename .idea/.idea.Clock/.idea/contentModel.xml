@@ -8,6 +8,10 @@
       <e p="Assets" t="Include">
         <e p="BaseRendering" t="Include">
           <e p="01 Matrices" t="Include">
+            <e p="PositionTransformation.cs" t="Include" />
+            <e p="RotationTransformation.cs" t="Include" />
+            <e p="ScaleTransformation.cs" t="Include" />
+            <e p="Transformation.cs" t="Include" />
             <e p="TransformationGrid.cs" t="Include" />
           </e>
         </e>
