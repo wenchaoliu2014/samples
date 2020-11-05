@@ -16,6 +16,9 @@
       <Path>.git</Path>
       <Path>.gradle</Path>
       <Path>.idea</Path>
+      <Path>Clock_as</Path>
+      <Path>Clock_xcode</Path>
+      <Path>Library</Path>
       <Path>Logs</Path>
       <Path>Temp</Path>
       <Path>obj</Path>
