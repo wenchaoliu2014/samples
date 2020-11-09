@@ -40,7 +40,8 @@ Shader "Custom/My First Shader2" {
 
 			float4 MyFragmentProgram (Interpolators i) : SV_TARGET {
 				float4 color = tex2D(_MainTex, i.uv) * _Tint;
-				color =  tex2D(_MainTex,i.uv*10);
+				//color =  tex2D(_MainTex,i.uv*10);
+				color *=  tex2D(_MainTex,i.uv*10);
 				return color;
 			}
 
