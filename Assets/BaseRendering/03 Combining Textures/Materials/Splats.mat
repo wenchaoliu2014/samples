@@ -13,7 +13,7 @@ Material:
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -56,19 +56,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture1:
-        m_Texture: {fileID: 2800000, guid: b35c1299b208e4a169d191b309690c4c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5f41b355a3d7f46f58a9c2ea0f5a26b5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2:
-        m_Texture: {fileID: 2800000, guid: c1d17104ac329429a8ce5b3c5e3e0764, type: 3}
+        m_Texture: {fileID: 2800000, guid: cc082d094b7214d2b9a43cbf69ac3d5b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture3:
-        m_Texture: {fileID: 2800000, guid: 071affc9b58274e53a04d24be07b8698, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6665241bd3b004171ae70f3cc49dad8e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture4:
-        m_Texture: {fileID: 2800000, guid: cc2435ba82d2d438fb8efecebbc68789, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3e348fd1a2d77432d94d9f36c3623061, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
