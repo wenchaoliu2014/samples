@@ -15,6 +15,17 @@
             <e p="Transformation.cs" t="Include" />
             <e p="TransformationGrid.cs" t="Include" />
           </e>
+          <e p="02 Shader Fundamentals" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="My First Shader.shader" t="Include" />
+            </e>
+          </e>
+          <e p="03 Combining Textures" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="My First Shader.shader" t="Include" />
+              <e p="Textured With Detail.shader" t="Include" />
+            </e>
+          </e>
         </e>
         <e p="basic" t="Include">
           <e p="Clock" t="Include">

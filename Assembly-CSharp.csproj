@@ -70,7 +70,9 @@
     <Compile Include="Assets\Mesh Basics\01 Procedural Grid\2\Grid2.cs" />
     <Compile Include="Assets\Mesh Basics\01 Procedural Grid\3\Grid3.cs" />
     <Compile Include="Assets\Mesh Basics\01 Procedural Grid\4\Grid.cs" />
+    <None Include="Assets\BaseRendering\03 Combining Textures\Shaders\Textured With Detail.shader" />
     <None Include="Assets\BaseRendering\02 Shader Fundamentals\Shaders\My First Shader.shader" />
+    <None Include="Assets\BaseRendering\03 Combining Textures\Shaders\My First Shader.shader" />
     <None Include="Assets\basic\graph\ColoredPoint.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Volumes/work/samples/Clock/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
