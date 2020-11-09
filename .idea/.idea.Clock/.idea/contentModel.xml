@@ -18,6 +18,7 @@
           <e p="02 Shader Fundamentals" t="Include">
             <e p="Shaders" t="Include">
               <e p="My First Shader.shader" t="Include" />
+              <e p="Textured With Detail.shader" t="Include" />
             </e>
           </e>
           <e p="03 Combining Textures" t="Include">
