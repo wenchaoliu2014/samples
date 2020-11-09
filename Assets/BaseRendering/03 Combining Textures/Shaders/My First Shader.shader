@@ -1,6 +1,6 @@
 ﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 
-Shader "Custom/My First Shader" {
+Shader "Custom/My First Shader2" {
 
 	Properties {
 		_Tint ("Tint", Color) = (1, 1, 1, 1)
@@ -39,7 +39,9 @@ Shader "Custom/My First Shader" {
 			}
 
 			float4 MyFragmentProgram (Interpolators i) : SV_TARGET {
-				return tex2D(_MainTex, i.uv) * _Tint;
+				float4 color = tex2D(_MainTex, i.uv) * _Tint;
+				color =  tex2D(_MainTex,i.uv*10);
+				return color;
 			}
 
 			ENDCG
