@@ -44,6 +44,14 @@
                 <e p="Textured With Detail.shader" t="Include" />
               </e>
             </e>
+            <e p="3" t="Include">
+              <e p="Shaders" t="Include">
+                <e p="My First Lighting Shader.shader" t="Include" />
+                <e p="My First Shader.shader" t="Include" />
+                <e p="Texture Splatting.shader" t="Include" />
+                <e p="Textured With Detail.shader" t="Include" />
+              </e>
+            </e>
           </e>
         </e>
         <e p="basic" t="Include">

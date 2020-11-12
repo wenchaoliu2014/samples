@@ -81,13 +81,17 @@
     <None Include="Assets\BaseRendering\02 Shader Fundamentals\Shaders\My First Shader.shader" />
     <None Include="Assets\BaseRendering\04 Light\2\Shaders\Texture Splatting.shader" />
     <None Include="Assets\BaseRendering\04 Light\1\Shaders\Texture Splatting.shader" />
+    <None Include="Assets\BaseRendering\04 Light\3\Shaders\My First Shader.shader" />
     <None Include="Assets\BaseRendering\03 Combining Textures\Shaders\Texture Splatting.shader" />
     <None Include="Assets\BaseRendering\04 Light\1\Shaders\My First Shader.shader" />
     <None Include="Assets\BaseRendering\04 Light\2\Shaders\Textured With Detail.shader" />
     <None Include="Assets\BaseRendering\03 Combining Textures\Shaders\My First Shader.shader" />
     <None Include="Assets\BaseRendering\04 Light\1\Shaders\My First Lighting Shader.shader" />
+    <None Include="Assets\BaseRendering\04 Light\3\Shaders\Textured With Detail.shader" />
     <None Include="Assets\BaseRendering\04 Light\2\Shaders\My First Lighting Shader.shader" />
     <None Include="Assets\basic\graph\ColoredPoint.shader" />
+    <None Include="Assets\BaseRendering\04 Light\3\Shaders\Texture Splatting.shader" />
+    <None Include="Assets\BaseRendering\04 Light\3\Shaders\My First Lighting Shader.shader" />
     <None Include="Assets\BaseRendering\04 Light\1\Shaders\Textured With Detail.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Volumes/work/samples/Clock/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
