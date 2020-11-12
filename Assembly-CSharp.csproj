@@ -80,6 +80,7 @@
     <None Include="Assets\BaseRendering\03 Combining Textures\Shaders\Textured With Detail.shader" />
     <None Include="Assets\BaseRendering\02 Shader Fundamentals\Shaders\My First Shader.shader" />
     <None Include="Assets\BaseRendering\04 Light\2\Shaders\Texture Splatting.shader" />
+    <None Include="Assets\BaseRendering\github_Organizations.txt" />
     <None Include="Assets\BaseRendering\04 Light\1\Shaders\Texture Splatting.shader" />
     <None Include="Assets\BaseRendering\04 Light\3\Shaders\My First Shader.shader" />
     <None Include="Assets\BaseRendering\03 Combining Textures\Shaders\Texture Splatting.shader" />

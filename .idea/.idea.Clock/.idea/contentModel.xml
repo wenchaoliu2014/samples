@@ -53,6 +53,7 @@
               </e>
             </e>
           </e>
+          <e p="github_Organizations.txt" t="Include" />
         </e>
         <e p="basic" t="Include">
           <e p="Clock" t="Include">
